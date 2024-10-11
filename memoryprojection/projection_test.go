@@ -5,11 +5,11 @@ import (
 
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/dogmatiq/projectionkit/internal/adaptortest"
-	"github.com/dogmatiq/projectionkit/internal/identity"
-	"github.com/dogmatiq/projectionkit/memoryprojection"
-	. "github.com/dogmatiq/projectionkit/memoryprojection"
-	"github.com/dogmatiq/projectionkit/memoryprojection/fixtures" // can't dot-import due to conflict
+	"github.com/madlitz/projectionkit/internal/adaptortest"
+	"github.com/madlitz/projectionkit/internal/identity"
+	"github.com/madlitz/projectionkit/memoryprojection"
+	. "github.com/madlitz/projectionkit/memoryprojection"
+	"github.com/madlitz/projectionkit/memoryprojection/fixtures" // can't dot-import due to conflict
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

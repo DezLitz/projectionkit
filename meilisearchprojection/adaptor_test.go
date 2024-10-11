@@ -8,10 +8,10 @@ import (
 
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/dogmatiq/projectionkit/internal/adaptortest"
-	"github.com/dogmatiq/projectionkit/internal/identity"
-	. "github.com/dogmatiq/projectionkit/meilisearchprojection"
-	"github.com/dogmatiq/projectionkit/meilisearchprojection/fixtures" // can't dot-import due to conflict
+	"github.com/madlitz/projectionkit/internal/adaptortest"
+	"github.com/madlitz/projectionkit/internal/identity"
+	. "github.com/madlitz/projectionkit/meilisearchprojection"
+	"github.com/madlitz/projectionkit/meilisearchprojection/fixtures" // can't dot-import due to conflict
 	"github.com/meilisearch/meilisearch-go"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

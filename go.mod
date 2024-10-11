@@ -1,4 +1,4 @@
-module github.com/dogmatiq/projectionkit
+module github.com/madlitz/projectionkit
 
 go 1.23
 

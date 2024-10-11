@@ -9,11 +9,11 @@ import (
 
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/dogmatiq/projectionkit/internal/adaptortest"
-	"github.com/dogmatiq/projectionkit/internal/identity"
-	. "github.com/dogmatiq/projectionkit/sqlprojection"
-	"github.com/dogmatiq/projectionkit/sqlprojection/fixtures" // can't dot-import due to conflict
 	"github.com/dogmatiq/sqltest"
+	"github.com/madlitz/projectionkit/internal/adaptortest"
+	"github.com/madlitz/projectionkit/internal/identity"
+	. "github.com/madlitz/projectionkit/sqlprojection"
+	"github.com/madlitz/projectionkit/sqlprojection/fixtures" // can't dot-import due to conflict
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

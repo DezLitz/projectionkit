@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	. "github.com/dogmatiq/projectionkit/sqlprojection"
 	"github.com/dogmatiq/sqltest/sqlstub"
+	. "github.com/madlitz/projectionkit/sqlprojection"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"go.uber.org/multierr"

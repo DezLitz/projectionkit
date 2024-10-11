@@ -13,9 +13,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	. "github.com/dogmatiq/projectionkit/dynamoprojection"
-	"github.com/dogmatiq/projectionkit/dynamoprojection/fixtures"
-	"github.com/dogmatiq/projectionkit/internal/identity"
+	. "github.com/madlitz/projectionkit/dynamoprojection"
+	"github.com/madlitz/projectionkit/dynamoprojection/fixtures"
+	"github.com/madlitz/projectionkit/internal/identity"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
