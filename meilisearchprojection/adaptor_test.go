@@ -64,7 +64,7 @@ var _ = Describe("type adaptor", func() {
 
 			handler.HandleEventFunc = func(
 				context.Context,
-				meilisearch.IndexManager,
+				meilisearch.ServiceManager,
 				dogma.ProjectionEventScope,
 				dogma.Event,
 			) error {

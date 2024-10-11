@@ -77,8 +77,8 @@ func (a *adaptor) HandleEvent(
 	ok, err := a.repo.UpdateResourceVersionFn(
 		ctx,
 		r, c, n,
-		func(ctx context.Context, index meilisearch.IndexManager) (bool, error) {
-			err := a.handler.HandleEvent(ctx, index, s, m)
+		func(ctx context.Context, client meilisearch.ServiceManager) (bool, error) {
+			err := a.handler.HandleEvent(ctx, client, s, m)
 			if err != nil {
 				return false, err
 			}

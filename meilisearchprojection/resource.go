@@ -107,10 +107,10 @@ func (rr *ResourceRepository) UpdateResourceVersion(
 func (rr *ResourceRepository) UpdateResourceVersionFn(
 	ctx context.Context,
 	r, c, n []byte,
-	fn func(context.Context, meilisearch.IndexManager) (bool, error),
+	fn func(context.Context, meilisearch.ServiceManager) (bool, error),
 ) (ok bool, err error) {
 
-	ok, err = fn(ctx, rr.db.Index(rr.key))
+	ok, err = fn(ctx, rr.db)
 	if err != nil {
 		return false, err
 	}
