@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/madlitz/projectionkit/meilisearchprojection"
+	. "github.com/dezlitz/projectionkit/meilisearchprojection"
 )
 
 func TestNoCompactBehavior_Compact_ReturnsNil(t *testing.T) {

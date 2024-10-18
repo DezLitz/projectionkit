@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/madlitz/projectionkit/resource"
+	"github.com/dezlitz/projectionkit/resource"
 	"go.etcd.io/bbolt"
 )
 

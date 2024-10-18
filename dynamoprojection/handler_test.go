@@ -3,7 +3,7 @@ package dynamoprojection_test
 import (
 	"context"
 
-	. "github.com/madlitz/projectionkit/dynamoprojection"
+	. "github.com/dezlitz/projectionkit/dynamoprojection"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

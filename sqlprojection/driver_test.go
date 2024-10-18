@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
+	. "github.com/dezlitz/projectionkit/sqlprojection"
 	"github.com/dogmatiq/sqltest"
-	. "github.com/madlitz/projectionkit/sqlprojection"
 	. "github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

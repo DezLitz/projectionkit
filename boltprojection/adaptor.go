@@ -3,10 +3,10 @@ package boltprojection
 import (
 	"context"
 
+	"github.com/dezlitz/projectionkit/internal/identity"
+	"github.com/dezlitz/projectionkit/internal/unboundhandler"
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/dogmatiq/dogma"
-	"github.com/madlitz/projectionkit/internal/identity"
-	"github.com/madlitz/projectionkit/internal/unboundhandler"
-	"github.com/madlitz/projectionkit/resource"
 	"go.etcd.io/bbolt"
 )
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/dezlitz/projectionkit/internal/identity"
+	"github.com/dezlitz/projectionkit/internal/unboundhandler"
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/dogmatiq/dogma"
-	"github.com/madlitz/projectionkit/internal/identity"
-	"github.com/madlitz/projectionkit/internal/unboundhandler"
-	"github.com/madlitz/projectionkit/resource"
 	"github.com/meilisearch/meilisearch-go"
 )
 

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/madlitz/projectionkit/resource"
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/meilisearch/meilisearch-go"
 )
 

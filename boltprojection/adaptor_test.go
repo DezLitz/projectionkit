@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"os"
 
+	. "github.com/dezlitz/projectionkit/boltprojection"
+	"github.com/dezlitz/projectionkit/boltprojection/fixtures" // can't dot-import due to conflict
+	"github.com/dezlitz/projectionkit/internal/adaptortest"
+	"github.com/dezlitz/projectionkit/internal/identity"
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	. "github.com/madlitz/projectionkit/boltprojection"
-	"github.com/madlitz/projectionkit/boltprojection/fixtures" // can't dot-import due to conflict
-	"github.com/madlitz/projectionkit/internal/adaptortest"
-	"github.com/madlitz/projectionkit/internal/identity"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"go.etcd.io/bbolt"

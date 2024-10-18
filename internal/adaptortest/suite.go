@@ -3,9 +3,9 @@ package adaptortest
 import (
 	"context"
 
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/dogmatiq/dogma"
 	"github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/madlitz/projectionkit/resource"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/extensions/table"
 	"github.com/onsi/gomega"

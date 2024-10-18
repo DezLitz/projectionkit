@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
+	. "github.com/dezlitz/projectionkit/resource"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	. "github.com/madlitz/projectionkit/resource"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

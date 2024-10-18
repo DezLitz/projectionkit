@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
-	"github.com/madlitz/projectionkit/dynamoprojection/internal/awsx"
-	"github.com/madlitz/projectionkit/resource"
+	"github.com/dezlitz/projectionkit/dynamoprojection/internal/awsx"
+	"github.com/dezlitz/projectionkit/resource"
 )
 
 // ResourceRepository is an implementation of resource.Repository that stores

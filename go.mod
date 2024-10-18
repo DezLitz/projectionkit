@@ -1,4 +1,4 @@
-module github.com/madlitz/projectionkit
+module github.com/dezlitz/projectionkit
 
 go 1.23
 

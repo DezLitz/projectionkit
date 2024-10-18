@@ -3,10 +3,10 @@ package unboundhandler_test
 import (
 	"context"
 
+	"github.com/dezlitz/projectionkit/internal/identity"
+	. "github.com/dezlitz/projectionkit/internal/unboundhandler"
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/madlitz/projectionkit/internal/identity"
-	. "github.com/madlitz/projectionkit/internal/unboundhandler"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/dogmatiq/dogma"
-	"github.com/madlitz/projectionkit/resource"
 )
 
 // Projection is an in-memory projection that builds a value of type T.

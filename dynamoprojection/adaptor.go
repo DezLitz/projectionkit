@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
+	"github.com/dezlitz/projectionkit/internal/identity"
+	"github.com/dezlitz/projectionkit/internal/unboundhandler"
+	"github.com/dezlitz/projectionkit/resource"
 	"github.com/dogmatiq/dogma"
-	"github.com/madlitz/projectionkit/internal/identity"
-	"github.com/madlitz/projectionkit/internal/unboundhandler"
-	"github.com/madlitz/projectionkit/resource"
 )
 
 // adaptor adapts a dynamoprojection.ProjectionMessageHandler to the

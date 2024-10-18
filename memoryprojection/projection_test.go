@@ -3,13 +3,13 @@ package memoryprojection_test
 import (
 	"context"
 
+	"github.com/dezlitz/projectionkit/internal/adaptortest"
+	"github.com/dezlitz/projectionkit/internal/identity"
+	"github.com/dezlitz/projectionkit/memoryprojection"
+	. "github.com/dezlitz/projectionkit/memoryprojection"
+	"github.com/dezlitz/projectionkit/memoryprojection/fixtures" // can't dot-import due to conflict
 	"github.com/dogmatiq/dogma"
 	. "github.com/dogmatiq/enginekit/enginetest/stubs"
-	"github.com/madlitz/projectionkit/internal/adaptortest"
-	"github.com/madlitz/projectionkit/internal/identity"
-	"github.com/madlitz/projectionkit/memoryprojection"
-	. "github.com/madlitz/projectionkit/memoryprojection"
-	"github.com/madlitz/projectionkit/memoryprojection/fixtures" // can't dot-import due to conflict
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
